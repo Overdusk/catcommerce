@@ -1,0 +1,10 @@
+main{
+	height:100vh;
+	width: 100vw;
+	background-color: purple;
+}
+.landing{
+	height: 1200px;
+	width: 100vw;
+	background-color:orange;
+}

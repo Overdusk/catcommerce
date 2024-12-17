@@ -1,0 +1,21 @@
+.nav-container{
+	width: 100%;
+	height: 220px;
+	background-color: blue;
+}
+.offer-nav{
+	height: 40px;
+	width: 100%;
+	background-color: yellow;
+}
+.items-nav{
+	height: 40px;
+	width: 100%;
+	background-color: green;
+	border-bottom: 1px solid white;
+}
+.btns-nav{
+	height: 90px;
+	width: 100%;
+	background-color: gray;
+}
