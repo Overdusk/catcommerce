@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import './cssReset.css';
+import './main.css';
 import Layout from './components/Layout/Layout.jsx';
 import Landing from './routes/Landing/Landing.jsx';
 
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path:'/',
-               element: <Landing />
+                element: <Landing />
             }
         ]
     }
