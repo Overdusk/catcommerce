@@ -19,7 +19,6 @@ function Header()
 						<li>Create an Account</li>
 						<li>USD</li>
 					</ul>
-
 				</div>
 				<div className="btns-nav">
 					<img src ="logo/logo_ecomblue_lg.png" className="logo-blue"/>
@@ -29,10 +28,28 @@ function Header()
 							className="isearch"
 							placeholder="Search..."
 						 />
+						<div className="csearch">
+							<span>
+								All Categorie
+							</span>
+							<i className="bi bi-chevron-down"></i>
+						</div>
+						<i className="bi bi-search"></i>
 					</div>
-				</div>
-				<div className="ftrs-nav">
-					
+					<div className="contact-section">
+						<i className="bi bi-telephone"></i>
+						<div className="text-sec">
+							<span>CALL US NOW</span>
+							<span>+123 5678 890</span>
+						</div>
+					</div>
+					<div className="navicon-c">
+						<i className="bi bi-person"></i>
+						<i className="bi bi-heart"></i>
+						<i className="bi bi-bag"></i>
+						<i className="bi bi-chevron-down"></i>
+						<div className="cart-counter">1</div>
+					</div>
 				</div>
 			</nav>
 		</>

@@ -1,7 +1,6 @@
 .nav-container{
 	width: 100%;
 	height: 220px;
-	background-color: blue;
 }
 .offer-nav{
 	height: 40px;
@@ -53,12 +52,14 @@ li{
 	height: 90px;
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
 }
 .logo-blue{
 	height: 50px;
 	width: 120px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 .search{
 	width: 600px;
@@ -67,12 +68,93 @@ li{
 	border-radius: 20px;
 	padding-left: 20px;
 	font-size: 12px;
+	display: flex;
+	align-items: center;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 .isearch{
 	background-color: transparent;
 	border: none;
 	outline: none;
 	height: 100%;
-	width: 200px;
+	width: 370px;
 	border-right: 1px solid white;
+}
+.csearch{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	border-right: 1px solid white;
+}
+.csearch > span, i{
+	font-size: 12px;
+	color: gray;
+	padding-left:20px;
+	padding-right:10px;
+	cursor: pointer;
+}
+.csearch:hover > span{
+	color: lightblue;
+}
+.csearch:hover > i{
+	color: lightblue;
+}
+.search > i{
+	color: black;
+	font-size: 15px;
+}
+.contact-section{
+	height: 100%;
+	width: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.contact-section > i{
+	color: black;
+	font-size: 40px;
+}
+.text-sec{
+	display: flex;
+	flex-direction: column;
+}
+.text-sec > span:first-child{
+	color: gray;
+	font-size: 14px;
+}
+.text-sec > span:nth-child(2){
+	color: black;
+	font-weight: 600;
+	font-size: 18px;
+}
+.navicon-c{
+	height: 100%;
+	width:220px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.navicon-c > i{
+	font-size: 30px;
+	color: black;
+}
+.navicon-c > i:nth-child(4){
+	font-size:12px;
+	position: absolute;
+	right: 260px;
+}
+.cart-counter{
+	position: absolute;
+	right: 280px;
+	top:100px;
+	font-size: 12px;
+	background-color: #ff5b5b;
+	width:13px;
+	height:15px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
 }
