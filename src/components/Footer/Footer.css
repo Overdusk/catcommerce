@@ -1,6 +1,127 @@
 .footer-container{
 	height:400px;
 	width: 100%;
-	background-color: pink;
+	background-color: #222529;
 	margin-top:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.f-contact-column, .f-customer-column, .f-populart-column, .f-subscribe-column{
+	margin-top: 50px;
+	height: 300px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+.f-contact-subtitle{
+	margin-top:10px;
+	color: white;
+	font-size:14px;
+}
+.f-contact-subtitle + span{
+	font-size: 12px;
+	color: gray;
+}
+.f-contact-iconsc{
+	width:100%;
+	height: 60px;
+	display:flex;
+	align-items: center;
+}
+.f-contact-icontainer{
+	height: 40px;
+	width: 40px;
+	border-radius: 60px;
+	background-color: transparent;
+	border: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top:30px;
+	cursor: pointer;
+}
+.ficon{
+	padding: 0;
+	font-size:20px;
+	color: white;
+}
+.f-customer-column, .f-populart-column, .f-contact-column, .f-subscrible-column > h3{
+	color: white;
+}
+.f-customer-links{
+	margin-top: 10px;
+}
+.f-customer-links > li{
+	list-style: none;
+}
+.f-customer-links > li > a{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+	cursor: pointer;
+}
+.f-customer-links > li > a:hover{
+	color: white;
+}
+.f-populart-column{
+	padding-bottom: 170px;
+}
+.f-tag-container{
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(5, 50px);
+	row-gap: 5px;
+	column-gap: 5px;
+}
+.tag-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:25px;
+	width: 50px;
+	border: 1px solid gray;
+	cursor: pointer;
+}
+.tag-box > span{
+	font-size: 10px;
+}
+.f-subscribe-text{
+	font-size: 12px;
+	color: gray;
+}
+.f-subscribe-column{
+	padding-bottom: 120px;
+}
+.f-subscribe-column > h3{
+	color: white;
+	margin-bottom: 10px;
+}
+.f-email-container > input{
+	background-color: #292C30;
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	height: 40px;
+	margin-top: 15px;
+	color: white;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.f-subscribe-btn{
+	background-color: #0088CC;
+	color: white;
+	font-weight: 600;
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 130px;
+	font-size: 12px;
+	border-radius: 30px;
+	margin-top: 20px;
 }

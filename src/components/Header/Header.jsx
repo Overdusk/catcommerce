@@ -12,7 +12,7 @@ function Header()
 						<span>FREE RETURNS. STANDARD SHIPPING ORDERS $99+</span>
 						<span>WELCOME TO CATCOMMERCE</span>
 					</div>
-					<ul>
+					<ul className="nav-menu">
 						<li>Blog</li>
 						<li>Sign In</li>
 						<li>Contact Us</li>

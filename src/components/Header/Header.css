@@ -38,13 +38,13 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
-ul{
+.nav-menu{
 	list-style: none;
 	display: flex;
 	flex-direction: row;
 	font-size: 12px;
 }
-li{
+.nav-menu > li{
 	margin-left: 10px;
 	margin-right: 10px;
 }
